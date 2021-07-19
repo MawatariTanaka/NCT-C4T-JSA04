@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+#card-main {
+    border: 1px solid black;
+    width: 600px;
+    height: 400px;
+}
+
+.left-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.penta-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    margin: 45px;
+}
+
+.penta-sub {
+    position: absolute;
+}
+
+.penta-logo-1 {
+    position: relative;
+    border-bottom: 30px solid black;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+}
+
+.penta-logo-2 {
+    position: relative;
+    width: 50px;
+    border-top: 48px solid black;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+}
+
+.penta-logo-3 {
+    position: relative;
+    border-bottom: 27px solid white;
+    border-left: 36px solid transparent;
+    border-right: 36px solid transparent;
+}
+
+.penta-logo-4 {
+    position: relative;
+    width: 44px;
+    border-top: 44px solid white;
+    border-left: 14px solid transparent;
+    border-right: 14px solid transparent;
+}
+
+
+.full-name .cpn-name {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.img-profile {
+    width: inherit;
+}
