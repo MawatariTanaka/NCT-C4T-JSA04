@@ -1,0 +1,32 @@
+#flex-item{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+}
+
+.item1, .item2, .item3 {
+    width: 100px;
+    height: 100px;
+}
+
+.item1 {
+    background: blue;
+}
+
+.item2 {
+    background: red;
+}
+
+.item3 {
+    background: yellow;
+}
+
+#grid-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#hop-com {
+    border: 1px solid black;
+    padding: 50px 80px;
+}
