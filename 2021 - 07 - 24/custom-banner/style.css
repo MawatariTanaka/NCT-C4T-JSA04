@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
 * {
     box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 html {
@@ -39,17 +42,13 @@ header {
 
 main {
     display: block;
-    position: relative;
-    height: 100vh;
+    padding: 100px;
     background: url(banner.jpg) center top / cover no-repeat;
 }
 
 #login {
-    position: absolute;
-    top: 100px;
-    left: 100px;
     background-color: rgba(255, 255, 255, 0.8);
-    width: 40%;
+    width: 50%;
     padding: 50px 75px;
 }
 
@@ -84,6 +83,7 @@ main {
     display: flex;
     justify-content: space-between;
 }
+
 #google {
     width: 77%;
     height: 70px;
@@ -96,7 +96,7 @@ main {
     border-radius: 10px;
 }
 
-#basketball{
+#basketball {
     width: 70px;
     height: 70px;
     background: url(basketball.svg) center center / 25px no-repeat #fbd5fa;
@@ -105,11 +105,11 @@ main {
 }
 
 #sign-in-form {
-    margin-top: 50px;
+    margin: 75px 0;
 }
 
 .sign-in-title {
-    margin: 5px 0;
+    margin: 15px 0;
     color: #949195;
 }
 
@@ -124,4 +124,12 @@ input[type=text] {
 
 input[type=text]:focus {
     border: 3px solid #a8cdf1;
+}
+
+button {
+    padding: 20px 50px;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    color: white;
 }
