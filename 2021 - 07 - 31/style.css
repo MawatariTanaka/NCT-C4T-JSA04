@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500;600;700;800;900&display=swap');
 
 * {
-    background-color: #f0f0f0;
     font-family: 'Roboto Slab', serif;
     font-weight: 500;
     box-sizing: border-box;
 }
 
 header {
+    background-color: #f0f0f0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -49,6 +49,7 @@ header {
 }
 
 #break {
+    background-color: #f0f0f0;
     width: 100%;
     padding: 25px 0 50px;
     color: #b2b2b2;
@@ -57,11 +58,15 @@ header {
 }
 
 main {
+    background-color: #f0f0f0;
     display: flex;
     justify-content: space-between;
     padding: 0 100px
 }
 
+#left-side-bar {
+    z-index: 1;
+}
 .choosen {
     margin-bottom: 50px;
 }
@@ -103,14 +108,25 @@ sup {
     border: none;
 }
 
+#shoe-display {
+    position: relative;
+}
+
 #main-type {
     font-size: 60px;
     letter-spacing: 1px;
 }
 
+#main-shoe {
+    position: absolute;
+    right: -100px;
+    top: 250px;
+    width: 850px;
+}
+
 #main-cart {
     display: flex;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 #price {
@@ -138,4 +154,8 @@ sup {
 
 .right-title {
     margin: 25px 0;
+}
+
+#sub-shoe {
+    margin-top: 50px;
 }
