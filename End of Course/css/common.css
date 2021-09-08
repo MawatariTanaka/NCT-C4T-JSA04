@@ -111,6 +111,7 @@ footer {
     header h1 {
         padding: 25px 0;
     }
+
     #web-name {
         margin-right: auto;
     }
@@ -119,6 +120,7 @@ footer {
         height: 100%;
         align-items: center;
     }
+
     .head-nav-bar {
         margin: 0 20px;
         transition: 0.5s;
@@ -137,18 +139,22 @@ footer {
     footer {
         padding: 150px 200px;
     }
+
     .form-control {
         display: flex;
         background: white;
         border-radius: 30px;
         margin: 10px 0;
     }
+
     .footer-form {
         width: 70%;
     }
+
     .form-input {
         height: 30px;
     }
+
     .form-button {
         width: 25%;
         height: 30px;
